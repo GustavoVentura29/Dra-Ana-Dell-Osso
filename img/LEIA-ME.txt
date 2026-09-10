@@ -1,0 +1,29 @@
+PASTA DE IMAGENS
+
+Identidade
+  favicon.ico (16/32/48) / favicon-16x16 / favicon-32x32   icone da aba
+  apple-touch-icon.png                                      icone iOS
+  android-chrome-192 / 512                                  icone Android
+  site.webmanifest                                          manifesto do app
+  og.jpg                                                    preview de link (1200x630)
+  logo-ac.svg                                               monograma vetorizado
+
+Fotos
+  hero.webp     topo          |  sobre.webp   secao Sobre
+  proc-*.webp   antes/depois de cada um dos 9 procedimentos
+
+Os 9 procedimentos estao com foto. Nao falta nenhuma.
+
+COMO PUBLICAR NA VERCEL
+  Suba o CONTEUDO desta pasta site/ (o index.html e a pasta img/),
+  nao a pasta site/ inteira. Se subir a pasta, o site vai parar em
+  /site/ em vez da raiz, e a og.jpg e os icones vao dar erro 404.
+
+  Dominio principal: anaclaradellosso.com.br (sem www)
+  O www deve redirecionar para ele. Se preferir o contrario,
+  troque as 4 ocorrencias de anaclaradellosso.com.br no index.html
+  para www.anaclaradellosso.com.br.
+
+DEPOIS DE PUBLICAR
+  Teste o preview em developers.facebook.com/tools/debug
+  Cole https://anaclaradellosso.com.br e clique em "Scrape Again".
